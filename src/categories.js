@@ -3,7 +3,7 @@
 */
 
 exports.mod = (mod_data) => {
-    logger.logInfo("[MOD] LifeMechanisms");
+    logger.logInfo("[MOD] BigBoy");
     //testing 
     let ModFolderName = `${mod_data.author}-${mod_data.name}-${mod_data.version}`;
     let ModFolders = mod_data.categ;
@@ -45,5 +45,5 @@ exports.mod = (mod_data) => {
     
     fileIO.write(PathResolver('user/cache/locale_en.json'), locale_en, true);
     fileIO.write(PathResolver('user/cache/templates.json'), templates, true);
-    logger.logSuccess("[MOD] LifeMechanisms; Applied");
+    logger.logSuccess("[MOD] BigBoy; Applied");
 }
