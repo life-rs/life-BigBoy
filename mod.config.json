@@ -1,0 +1,34 @@
+{
+  "name": "BigBoy",
+  "author": "life",
+  "description": "collection of my mods",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoupdate": true,
+  "checkUpdateUrl": "https://raw.githubusercontent.com/life-rs/life-BigBoy-/main/updater.json",
+  "src":{
+    "src/modloader.js": "CacheModLoad",
+    "src/life.js": "CacheModLoad",
+    "src/categories.js": "CacheModLoad"
+  },
+  "folders": [
+	"files/assort/ragfair",
+	"files/items",
+  "files/locales/en",
+  "files/templates"
+  ],
+  "filenames": [
+    "BigBoy_Armor",
+    "BigBoy_Ears",
+    "BigBoy_FShield",
+    "BigBoy_Helmet",
+    "BigBoy_Rig"
+  ],
+  "categ": [
+    "test/handbook",
+    "test/templates"
+  ],
+  "things": [
+    "BigBoyArmor"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "BigBoy",
+    "author": "life",
+    "version": "1.0.0",
+    "forceDowngrade": false,
+    "downloadUpdateUrl": "https://github.com/life-rs/life-BigBoy-/archive/1.0.0.zip",
+    "excludeFromUpdate": [
+        "README.md"
+    ]
+}
