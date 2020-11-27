@@ -1,7 +1,7 @@
 {
     "Id": "BigBoyArmor",
-    "ParentId": "LifeMechs",
+    "ParentId": null,
     "Icon": "/files/handbook/icon_gear.png",
     "Color": "",
-    "Order": "3"
+    "Order": "100"
 }
